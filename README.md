@@ -1,6 +1,6 @@
 # Change Hybris Products Images
 
-This Project was inspired of a script created by @natanaelpantoja to facilitate the replacement of product images in Hybris with new images. According to that script,  I created this project to modify easily all products images using the new images collection. It use a SAP Hybris Commerce Accelerator Recipe to get all products imagens as reference and another folder with new images to substitute. The process is very simple.
+This Project was inspired of a script created by [Natanael Pantoja](http://github.com/natanaelpantoja) to facilitate the replacement of product images in Hybris with new images. According to that script,  I created this project to modify easily all products images using the new images collection. It use a SAP Hybris Commerce Accelerator Recipe to get all products imagens as reference and another folder with new images to substitute. The process is very simple.
 
 ## Important Information
 
