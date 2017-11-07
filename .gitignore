@@ -105,5 +105,8 @@ ENV/
 .idea
 *.iml
 
+# Other Files
+*.zip
 
+generatedImages/
 

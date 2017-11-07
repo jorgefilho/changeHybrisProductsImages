@@ -11,7 +11,7 @@ import sys
 # Creating the new folders
 folderSize30='generatedImages\\30Wx30H'
 folderSize65='generatedImages\\65Wx65H'
-folderSize95='generatedImages\\96Wx95H'
+folderSize95='generatedImages\\96Wx96H'
 folderSize300='generatedImages\\300Wx300H'
 folderSize515='generatedImages\\515Wx515H'
 folderSize1200='generatedImages\\1200Wx1200H'
@@ -24,8 +24,8 @@ def getResizeCommand (pathSourceFile, sourceFileName, targetFileName, size):
         executeCommand = 'magick ' + pathSourceFile + '\\' + sourceFileName + ' -resize x30 ' + folderSize30 + '\\' + targetFileName
     elif (size == 65):
         executeCommand = 'magick ' + pathSourceFile + '\\' + sourceFileName + ' -resize x65 ' + folderSize65 + '\\' + targetFileName
-    elif (size == 95):
-        executeCommand = 'magick ' + pathSourceFile + '\\' + sourceFileName + ' -resize x95 ' + folderSize95 + '\\' + targetFileName
+    elif (size == 96):
+        executeCommand = 'magick ' + pathSourceFile + '\\' + sourceFileName + ' -resize x96 ' + folderSize95 + '\\' + targetFileName
     elif (size == 300):
         executeCommand = 'magick ' + pathSourceFile + '\\' + sourceFileName + ' -resize x300 ' + folderSize300 + '\\' + targetFileName
     elif (size == 515):
@@ -81,7 +81,7 @@ def executeWholeProcess():
            executeCommand = getResizeCommand(sourceFolder, sourceImages[count], fileName, 65)
            os.system(executeCommand)
 
-           executeCommand = getResizeCommand(sourceFolder, sourceImages[count], fileName, 95)
+           executeCommand = getResizeCommand(sourceFolder, sourceImages[count], fileName, 96)
            os.system(executeCommand)
 
            executeCommand = getResizeCommand(sourceFolder, sourceImages[count], fileName, 300)
